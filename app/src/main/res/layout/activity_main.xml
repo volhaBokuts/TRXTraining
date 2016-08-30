@@ -8,29 +8,39 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <Button
-            android:layout_width="match_parent"
+            android:id="@+id/buttonHome"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:text="@string/btn_home"
             android:layout_weight="1"
-            android:text="Главная"
-            android:id="@+id/buttonHome" />
+            android:background="@color/colorBackground"
+            android:textColor="@color/colorText" />
 
         <Button
-            android:layout_width="match_parent"
+            android:id="@+id/buttonExercises"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:text="@string/btn_exercises"
             android:layout_weight="1"
-            android:text="Упражнения"
-            android:id="@+id/buttonExercises" />
+            android:background="@color/colorBackground"
+            android:textColor="@color/colorText" />
 
         <Button
-            android:layout_width="match_parent"
+            android:id="@+id/buttonWorkout"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:text="@string/btn_workout"
             android:layout_weight="1"
-            android:text="Площадки"
-            android:id="@+id/buttonWorkout" />
+            android:background="@color/colorBackground"
+            android:textColor="@color/colorText" />
+
     </LinearLayout>
 
 </LinearLayout>
