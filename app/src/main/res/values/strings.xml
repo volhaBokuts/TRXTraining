@@ -3,4 +3,7 @@
     <string name="btn_home">Главная</string>
     <string name="btn_exercises">Упражнения</string>
     <string name="btn_workout">Площадки</string>
+    <string name="btn_training">Мои комплексы</string>
+    <string name="btn_complex">Комплекс</string>
+    <string name="btn_own_complex">Составить свой копмлекс</string>
 </resources>

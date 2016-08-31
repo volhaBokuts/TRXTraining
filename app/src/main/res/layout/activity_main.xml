@@ -19,8 +19,8 @@
             android:layout_height="wrap_content"
             android:text="@string/btn_home"
             android:layout_weight="1"
-            android:background="@color/colorBackground"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorText"
+            android:textSize="12sp" />
 
         <Button
             android:id="@+id/buttonExercises"
@@ -29,8 +29,18 @@
             android:layout_height="wrap_content"
             android:text="@string/btn_exercises"
             android:layout_weight="1"
-            android:background="@color/colorBackground"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorText"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/buttonTraining"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_training"
+            android:layout_weight="1"
+            android:textColor="@color/colorText"
+            android:textSize="12sp"/>
 
         <Button
             android:id="@+id/buttonWorkout"
@@ -39,8 +49,36 @@
             android:layout_height="wrap_content"
             android:text="@string/btn_workout"
             android:layout_weight="1"
-            android:background="@color/colorBackground"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorText"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonComplex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_complex"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/buttonOwnComplex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_own_complex"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
 
