@@ -14,41 +14,41 @@
 
         <Button
             android:id="@+id/buttonHome"
-            style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/btn_home"
             android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
             android:textColor="@color/colorText"
             android:textSize="12sp" />
 
         <Button
             android:id="@+id/buttonExercises"
-            style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/btn_exercises"
             android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
             android:textColor="@color/colorText"
             android:textSize="12sp"/>
 
         <Button
             android:id="@+id/buttonTraining"
-            style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/btn_training"
             android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
             android:textColor="@color/colorText"
             android:textSize="12sp"/>
 
         <Button
             android:id="@+id/buttonWorkout"
-            style="?android:attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/btn_workout"
             android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
             android:textColor="@color/colorText"
             android:textSize="12sp"/>
 
