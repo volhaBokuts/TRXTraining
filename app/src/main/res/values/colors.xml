@@ -6,4 +6,5 @@
     <color name="colorBackground">#000000</color>
     <color name="colorText">#FFFFFF</color>
     <color name="colorButton">#FFCC00</color>
+    <color name="colorActiveMenu">#FFCC00</color>
 </resources>

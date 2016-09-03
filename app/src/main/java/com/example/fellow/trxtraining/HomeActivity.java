@@ -19,6 +19,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         btnExercises = (Button) findViewById(R.id.buttonExercises);
         btnUserComplexes = (Button) findViewById(R.id.buttonUserComplexes);
         btnPlaygrounds = (Button) findViewById(R.id.buttonPlaygrounds);
+
     }
 
     @Override
