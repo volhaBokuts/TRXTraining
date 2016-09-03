@@ -59,32 +59,40 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/buttonComplex"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_complex"
-            android:layout_gravity="center_horizontal"
-            android:background="@color/colorButton"
-            android:layout_marginBottom="16dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="60dp">
 
-        <Button
-            android:id="@+id/buttonOwnComplex"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_own_complex"
-            android:layout_gravity="center_horizontal"
-            android:background="@color/colorButton"
-            android:layout_marginBottom="16dp" />
+            <Button
+                android:id="@+id/buttonComplex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_complex"
+                android:layout_gravity="center"
+                android:background="@color/colorButton"
+                android:layout_marginBottom="16dp" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:layout_gravity="center_horizontal"
-            android:background="@color/colorButton"
-            android:layout_marginBottom="16dp" />
+            <Button
+                android:id="@+id/buttonOwnComplex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_own_complex"
+                android:layout_gravity="center"
+                android:background="@color/colorButton"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:layout_gravity="center"
+                android:background="@color/colorButton"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
