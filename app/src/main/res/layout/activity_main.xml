@@ -5,75 +5,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".HomeActivity"
-    android:background="@color/colorBackground">
-
-    <HorizontalScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/horizontalScrollView" >
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:id="@+id/buttonHome"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/btn_home"
-                android:background="@color/colorActiveMenu"
-                android:textColor="@color/colorText"
-                android:textSize="12sp"
-                android:onClick="onClick" />
-
-            <Button
-                android:id="@+id/buttonExercises"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/btn_exercises"
-                android:background="@color/colorBackground"
-                android:textColor="@color/colorText"
-                android:textSize="12sp"
-                android:onClick="onClick" />
-
-            <Button
-                android:id="@+id/buttonUserComplexes"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/btn_user_complexes"
-                android:background="@color/colorBackground"
-                android:textColor="@color/colorText"
-                android:textSize="12sp"
-                android:onClick="onClick" />
-
-            <Button
-                android:id="@+id/buttonPlaygrounds"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/btn_playgrounds"
-                android:background="@color/colorBackground"
-                android:textColor="@color/colorText"
-                android:textSize="12sp"
-                android:onClick="onClick" />
-
-        </LinearLayout>
-
-    </HorizontalScrollView>
+    android:background="@drawable/home_background">
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="60dp">
 
             <Button
-                android:id="@+id/buttonComplex"
+                android:id="@+id/buttonTraining"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_complex"
@@ -82,7 +23,7 @@
                 android:layout_marginBottom="16dp" />
 
             <Button
-                android:id="@+id/buttonOwnComplex"
+                android:id="@+id/buttonExercises"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_own_complex"
@@ -91,15 +32,13 @@
                 android:layout_marginBottom="16dp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/buttonPlaygrounds"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_continue_complex"
                 android:layout_gravity="center"
                 android:background="@color/colorButton"
                 android:layout_marginBottom="16dp" />
-
-        </LinearLayout>
 
     </LinearLayout>
 

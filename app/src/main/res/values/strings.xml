@@ -4,7 +4,7 @@
     <string name="btn_exercises">Упражнения</string>
     <string name="btn_playgrounds">Площадки</string>
     <string name="btn_user_complexes">Мои комплексы</string>
-    <string name="btn_complex">Выбрать комплекс</string>
-    <string name="btn_own_complex">Составить свой копмлекс</string>
-    <string name="btn_continue_complex">Продолжить выполнение</string>
+    <string name="btn_complex">Тренировка</string>
+    <string name="btn_own_complex">Упражнения</string>
+    <string name="btn_continue_complex">Площадки Workout</string>
 </resources>

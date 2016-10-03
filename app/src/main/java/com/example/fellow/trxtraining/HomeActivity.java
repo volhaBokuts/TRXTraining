@@ -8,16 +8,15 @@ import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnHome, btnExercises, btnPlaygrounds, btnUserComplexes;
+    Button btnTraining, btnExercises, btnPlaygrounds;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnHome = (Button) findViewById(R.id.buttonHome);
+        btnTraining = (Button) findViewById(R.id.buttonTraining);
         btnExercises = (Button) findViewById(R.id.buttonExercises);
-        btnUserComplexes = (Button) findViewById(R.id.buttonUserComplexes);
         btnPlaygrounds = (Button) findViewById(R.id.buttonPlaygrounds);
 
     }
@@ -25,13 +24,12 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
+            case R.id.buttonTraining:
+                Intent intentTraining = new Intent(this, ExercisesActivity.class);
+                startActivity(intentTraining);
             case R.id.buttonExercises:
                 Intent intentExercises = new Intent(this, ExercisesActivity.class);
                 startActivity(intentExercises);
-                break;
-            case R.id.buttonUserComplexes:
-                Intent intentUserComplexes = new Intent(this, UserComplexesActivity.class);
-                startActivity(intentUserComplexes);
                 break;
             case R.id.buttonPlaygrounds:
                 Intent intentPlaygrounds = new Intent(this, PlaygroundsActivity.class);
